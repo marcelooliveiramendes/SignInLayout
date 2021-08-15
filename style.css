@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.login{
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+}
+.stroke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stroke hr{
+    width: 33%;
+    height: 1px;
+    background-color: #bebebe;
+}
+
+.login .content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    background: rgb(97,89,234);
+    background: linear-gradient(90deg, rgba(97,89,234,1) 0%, rgba(60,54,167,1) 100%);
+    border-radius: 30px;
+}
+
+.login .content img{
+    width: 90%;
+    height: 60%;
+}
+
+
+.login .content form{
+    width: 100%;
+    height: 80%;
+    padding: 0px 100px;
+}
+.login .content form p{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.login .content form .loginGoogle{
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #a7a7a7;
+    outline: none;
+}
+
+.login .content form .inputText{
+    width: 92%;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #a7a7a7;
+    padding-left: 20px;
+    outline: none;
+}
+
+
+.btn{
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    background-color: white;
+    border: 1px solid rgb(97,89,234);
+    color: rgb(97,89,234);
+    font-weight: bold;
+}
+.btn:hover{
+    border: 1px solid #a7a7a7;
+    background-color: rgb(97,89,234);
+    color: white;
+    transition: .3s;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(97,89,234);
+}
